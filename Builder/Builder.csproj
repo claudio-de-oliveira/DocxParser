@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Contract_Express\Flight_Confirmation.docx" />
+    <None Remove="Contract_Express\Flight_Confirmation.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GemBox.Document" Version="2025.9.108" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TemplateBuilder\TemplateBuilder.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Contract_Express\Flight_Confirmation.docx" />
+    <Resource Include="Contract_Express\Flight_Confirmation.json" />
+  </ItemGroup>
+
+</Project>

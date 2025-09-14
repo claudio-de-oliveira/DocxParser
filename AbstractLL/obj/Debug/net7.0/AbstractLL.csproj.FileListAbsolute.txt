@@ -1,0 +1,46 @@
+D:\users\clalu\Source\repos\Praeceptor\Praeceptor-Docker\Parsers\AbstractLL\bin\Debug\net7.0\AbstractLL.deps.json
+D:\users\clalu\Source\repos\Praeceptor\Praeceptor-Docker\Parsers\AbstractLL\bin\Debug\net7.0\AbstractLL.dll
+D:\users\clalu\Source\repos\Praeceptor\Praeceptor-Docker\Parsers\AbstractLL\bin\Debug\net7.0\AbstractLL.pdb
+D:\users\clalu\Source\repos\Praeceptor\Praeceptor-Docker\Parsers\AbstractLL\obj\Debug\net7.0\AbstractLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\users\clalu\Source\repos\Praeceptor\Praeceptor-Docker\Parsers\AbstractLL\obj\Debug\net7.0\AbstractLL.AssemblyInfoInputs.cache
+D:\users\clalu\Source\repos\Praeceptor\Praeceptor-Docker\Parsers\AbstractLL\obj\Debug\net7.0\AbstractLL.AssemblyInfo.cs
+D:\users\clalu\Source\repos\Praeceptor\Praeceptor-Docker\Parsers\AbstractLL\obj\Debug\net7.0\AbstractLL.csproj.CoreCompileInputs.cache
+D:\users\clalu\Source\repos\Praeceptor\Praeceptor-Docker\Parsers\AbstractLL\obj\Debug\net7.0\AbstractLL.dll
+D:\users\clalu\Source\repos\Praeceptor\Praeceptor-Docker\Parsers\AbstractLL\obj\Debug\net7.0\refint\AbstractLL.dll
+D:\users\clalu\Source\repos\Praeceptor\Praeceptor-Docker\Parsers\AbstractLL\obj\Debug\net7.0\AbstractLL.pdb
+D:\users\clalu\Source\repos\Praeceptor\Praeceptor-Docker\Parsers\AbstractLL\obj\Debug\net7.0\ref\AbstractLL.dll
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\AbstractLL\bin\Debug\net7.0\AbstractLL.deps.json
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\AbstractLL\bin\Debug\net7.0\AbstractLL.dll
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\AbstractLL\bin\Debug\net7.0\AbstractLL.pdb
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\AbstractLL\obj\Debug\net7.0\AbstractLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\AbstractLL\obj\Debug\net7.0\AbstractLL.AssemblyInfoInputs.cache
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\AbstractLL\obj\Debug\net7.0\AbstractLL.AssemblyInfo.cs
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\AbstractLL\obj\Debug\net7.0\AbstractLL.csproj.CoreCompileInputs.cache
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\AbstractLL\obj\Debug\net7.0\AbstractLL.dll
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\AbstractLL\obj\Debug\net7.0\refint\AbstractLL.dll
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\AbstractLL\obj\Debug\net7.0\AbstractLL.pdb
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\AbstractLL\obj\Debug\net7.0\ref\AbstractLL.dll
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\bin\Debug\net7.0\AbstractLL.deps.json
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\bin\Debug\net7.0\AbstractLL.dll
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\bin\Debug\net7.0\AbstractLL.pdb
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\obj\Debug\net7.0\AbstractLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\obj\Debug\net7.0\AbstractLL.AssemblyInfoInputs.cache
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\obj\Debug\net7.0\AbstractLL.AssemblyInfo.cs
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\obj\Debug\net7.0\AbstractLL.csproj.CoreCompileInputs.cache
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\obj\Debug\net7.0\AbstractLL.sourcelink.json
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\obj\Debug\net7.0\AbstractLL.dll
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\obj\Debug\net7.0\refint\AbstractLL.dll
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\obj\Debug\net7.0\AbstractLL.pdb
+D:\users\clalu\Source\repos\Dynamid-Relatory\AbstractLL\obj\Debug\net7.0\ref\AbstractLL.dll
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\bin\Debug\net7.0\AbstractLL.deps.json
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\bin\Debug\net7.0\AbstractLL.dll
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\bin\Debug\net7.0\AbstractLL.pdb
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\obj\Debug\net7.0\AbstractLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\obj\Debug\net7.0\AbstractLL.AssemblyInfoInputs.cache
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\obj\Debug\net7.0\AbstractLL.AssemblyInfo.cs
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\obj\Debug\net7.0\AbstractLL.csproj.CoreCompileInputs.cache
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\obj\Debug\net7.0\AbstractLL.sourcelink.json
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\obj\Debug\net7.0\AbstractLL.dll
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\obj\Debug\net7.0\refint\AbstractLL.dll
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\obj\Debug\net7.0\AbstractLL.pdb
+D:\users\clalu\Source\repos\DynaRel\AbstractLL\obj\Debug\net7.0\ref\AbstractLL.dll

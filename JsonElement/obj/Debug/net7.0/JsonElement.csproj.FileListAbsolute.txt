@@ -1,0 +1,38 @@
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\obj\Debug\net7.0\JsonElement.csproj.AssemblyReference.cache
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\obj\Debug\net7.0\JsonElement.GeneratedMSBuildEditorConfig.editorconfig
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\obj\Debug\net7.0\JsonElement.AssemblyInfoInputs.cache
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\obj\Debug\net7.0\JsonElement.AssemblyInfo.cs
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\obj\Debug\net7.0\JsonElement.csproj.CoreCompileInputs.cache
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\bin\Debug\net7.0\JsonElement.deps.json
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\bin\Debug\net7.0\JsonElement.dll
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\bin\Debug\net7.0\JsonElement.pdb
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\obj\Debug\net7.0\JsonElement.dll
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\obj\Debug\net7.0\refint\JsonElement.dll
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\obj\Debug\net7.0\JsonElement.pdb
+D:\users\clalu\Source\repos\Contract Express\ContractExpress\JsonElement\obj\Debug\net7.0\ref\JsonElement.dll
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\bin\Debug\net7.0\JsonElement.deps.json
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\bin\Debug\net7.0\JsonElement.dll
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\bin\Debug\net7.0\JsonElement.pdb
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\obj\Debug\net7.0\JsonElement.csproj.AssemblyReference.cache
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\obj\Debug\net7.0\JsonElement.GeneratedMSBuildEditorConfig.editorconfig
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\obj\Debug\net7.0\JsonElement.AssemblyInfoInputs.cache
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\obj\Debug\net7.0\JsonElement.AssemblyInfo.cs
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\obj\Debug\net7.0\JsonElement.csproj.CoreCompileInputs.cache
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\obj\Debug\net7.0\JsonElement.sourcelink.json
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\obj\Debug\net7.0\JsonElement.dll
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\obj\Debug\net7.0\refint\JsonElement.dll
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\obj\Debug\net7.0\JsonElement.pdb
+D:\users\clalu\Source\repos\Dynamid-Relatory\JsonElement\obj\Debug\net7.0\ref\JsonElement.dll
+D:\users\clalu\Source\repos\DynaRel\JsonElement\bin\Debug\net7.0\JsonElement.deps.json
+D:\users\clalu\Source\repos\DynaRel\JsonElement\bin\Debug\net7.0\JsonElement.dll
+D:\users\clalu\Source\repos\DynaRel\JsonElement\bin\Debug\net7.0\JsonElement.pdb
+D:\users\clalu\Source\repos\DynaRel\JsonElement\obj\Debug\net7.0\JsonElement.csproj.AssemblyReference.cache
+D:\users\clalu\Source\repos\DynaRel\JsonElement\obj\Debug\net7.0\JsonElement.GeneratedMSBuildEditorConfig.editorconfig
+D:\users\clalu\Source\repos\DynaRel\JsonElement\obj\Debug\net7.0\JsonElement.AssemblyInfoInputs.cache
+D:\users\clalu\Source\repos\DynaRel\JsonElement\obj\Debug\net7.0\JsonElement.AssemblyInfo.cs
+D:\users\clalu\Source\repos\DynaRel\JsonElement\obj\Debug\net7.0\JsonElement.csproj.CoreCompileInputs.cache
+D:\users\clalu\Source\repos\DynaRel\JsonElement\obj\Debug\net7.0\JsonElement.sourcelink.json
+D:\users\clalu\Source\repos\DynaRel\JsonElement\obj\Debug\net7.0\JsonElement.dll
+D:\users\clalu\Source\repos\DynaRel\JsonElement\obj\Debug\net7.0\refint\JsonElement.dll
+D:\users\clalu\Source\repos\DynaRel\JsonElement\obj\Debug\net7.0\JsonElement.pdb
+D:\users\clalu\Source\repos\DynaRel\JsonElement\obj\Debug\net7.0\ref\JsonElement.dll
