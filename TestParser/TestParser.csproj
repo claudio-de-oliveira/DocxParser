@@ -23,8 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DynaRel\ConcreteLL\ConcreteLL.csproj" />
-    <ProjectReference Include="..\..\DynaRel\JsonElement\JsonElement.csproj" />
+    <ProjectReference Include="..\..\DocxParser\ConcreteLL\ConcreteLL.csproj" />
+    <ProjectReference Include="..\..\DocxParser\JsonElement\JsonElement.csproj" />
   </ItemGroup>
 
 </Project>

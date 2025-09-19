@@ -5543,18 +5543,18 @@
     },
     "AbstractLL/1.0.0": {
       "type": "project",
-      "path": "../../DynaRel/AbstractLL/AbstractLL.csproj",
-      "msbuildProject": "../../DynaRel/AbstractLL/AbstractLL.csproj"
+      "path": "../AbstractLL/AbstractLL.csproj",
+      "msbuildProject": "../AbstractLL/AbstractLL.csproj"
     },
     "ConcreteLL/1.0.0": {
       "type": "project",
-      "path": "../../DynaRel/ConcreteLL/ConcreteLL.csproj",
-      "msbuildProject": "../../DynaRel/ConcreteLL/ConcreteLL.csproj"
+      "path": "../ConcreteLL/ConcreteLL.csproj",
+      "msbuildProject": "../ConcreteLL/ConcreteLL.csproj"
     },
     "JsonElement/1.0.0": {
       "type": "project",
-      "path": "../../DynaRel/JsonElement/JsonElement.csproj",
-      "msbuildProject": "../../DynaRel/JsonElement/JsonElement.csproj"
+      "path": "../JsonElement/JsonElement.csproj",
+      "msbuildProject": "../JsonElement/JsonElement.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5568,42 +5568,46 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\clalu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\claudio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\users\\clalu\\Source\\repos\\DocxParser\\TestParser\\TestParser.csproj",
+      "projectUniqueName": "C:\\Users\\claudio\\source\\repos\\DocxParser\\TestParser\\TestParser.csproj",
       "projectName": "TestParser",
-      "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\TestParser\\TestParser.csproj",
-      "packagesPath": "C:\\Users\\clalu\\.nuget\\packages\\",
-      "outputPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\TestParser\\obj\\",
+      "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\TestParser\\TestParser.csproj",
+      "packagesPath": "C:\\Users\\claudio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\claudio\\Source\\Repos\\DocxParser\\TestParser\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\clalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\claudio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\users\\clalu\\Source\\repos\\DynaRel\\ConcreteLL\\ConcreteLL.csproj": {
-              "projectPath": "D:\\users\\clalu\\Source\\repos\\DynaRel\\ConcreteLL\\ConcreteLL.csproj"
+            "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj": {
+              "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj"
             },
-            "D:\\users\\clalu\\Source\\repos\\DynaRel\\JsonElement\\JsonElement.csproj": {
-              "projectPath": "D:\\users\\clalu\\Source\\repos\\DynaRel\\JsonElement\\JsonElement.csproj"
+            "C:\\Users\\claudio\\source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj": {
+              "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj"
             }
           }
         }
@@ -5661,7 +5665,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

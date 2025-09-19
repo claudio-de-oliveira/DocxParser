@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConcreteLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b49dd102d9e70236be5108cf28e0947906fdb225")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConcreteLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConcreteLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

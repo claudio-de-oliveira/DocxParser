@@ -22,7 +22,7 @@
 
   <ItemGroup>
     <Resource Include="Contract_Express\Flight_Confirmation.docx" />
-    <Resource Include="Contract_Express\Flight_Confirmation.json" />
+    <Resource Include="C:\TEMP\Contract Express\Exemplos\Flight_Confirmation_A.json" Link="Flight_Confirmation_A.json" />
   </ItemGroup>
 
 </Project>

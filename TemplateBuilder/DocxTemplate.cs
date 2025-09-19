@@ -58,7 +58,7 @@ namespace TemplateBuilder
                         if (text.Text[i] == '>')
                             root.AppendChild(new Text(">"));
             }
-            else
+            else if (xmlElement is not ProofError)
             {
                 var clone = xmlElement.CloneNode(false);
                 root.AppendChild(clone);

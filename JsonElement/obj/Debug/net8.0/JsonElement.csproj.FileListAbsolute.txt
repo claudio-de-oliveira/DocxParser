@@ -23,3 +23,16 @@ D:\users\clalu\Source\repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.
 D:\users\clalu\Source\repos\DocxParser\JsonElement\obj\Debug\net8.0\refint\JsonElement.dll
 D:\users\clalu\Source\repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.pdb
 D:\users\clalu\Source\repos\DocxParser\JsonElement\obj\Debug\net8.0\ref\JsonElement.dll
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\bin\Debug\net8.0\JsonElement.deps.json
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\bin\Debug\net8.0\JsonElement.dll
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\bin\Debug\net8.0\JsonElement.pdb
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.csproj.AssemblyReference.cache
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.AssemblyInfoInputs.cache
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.AssemblyInfo.cs
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.csproj.CoreCompileInputs.cache
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.sourcelink.json
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.dll
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\refint\JsonElement.dll
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.pdb
+C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\ref\JsonElement.dll

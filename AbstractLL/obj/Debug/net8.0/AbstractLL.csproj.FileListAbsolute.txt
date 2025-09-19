@@ -21,3 +21,15 @@ D:\users\clalu\Source\repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.dl
 D:\users\clalu\Source\repos\DocxParser\AbstractLL\obj\Debug\net8.0\refint\AbstractLL.dll
 D:\users\clalu\Source\repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.pdb
 D:\users\clalu\Source\repos\DocxParser\AbstractLL\obj\Debug\net8.0\ref\AbstractLL.dll
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\bin\Debug\net8.0\AbstractLL.deps.json
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\bin\Debug\net8.0\AbstractLL.dll
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\bin\Debug\net8.0\AbstractLL.pdb
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.AssemblyInfoInputs.cache
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.AssemblyInfo.cs
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.csproj.CoreCompileInputs.cache
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.sourcelink.json
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.dll
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\refint\AbstractLL.dll
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.pdb
+C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\ref\AbstractLL.dll

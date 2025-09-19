@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3wc4vM1Cyn4=",
+  "dgSpecHash": "ch0O6wm23U0=",
   "success": true,
-  "projectFilePath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj",
+  "projectFilePath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\clalu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\claudio\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

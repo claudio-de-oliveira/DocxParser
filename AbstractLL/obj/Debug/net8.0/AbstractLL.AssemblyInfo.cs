@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AbstractLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b49dd102d9e70236be5108cf28e0947906fdb225")]
 [assembly: System.Reflection.AssemblyProductAttribute("AbstractLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AbstractLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

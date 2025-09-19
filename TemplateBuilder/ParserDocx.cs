@@ -33,7 +33,7 @@ namespace TemplateBuilder
             return body;
         }
 
-        private OpenXmlElement? ParseInterno(OpenXmlElement xmlElement, int index = 0)
+        private OpenXmlElement? ParseInterno(OpenXmlElement xmlElement, int index)
         {
             if (xmlElement is ExpressionElement exp)
             {
@@ -134,7 +134,10 @@ namespace TemplateBuilder
             {
                 var result = val.Expression!.Evaluate(variables, history);
 
-                return new Text() { Text = (result is Array array) ? array.GetValue(index)!.ToString()! : result!.ToString()! };
+                while (result is Array)
+                    result = ((Array)result).GetValue(index);
+
+                return new Text() { Text = result!.ToString()! };
             }
             else if (xmlElement is OpenXmlLeafElement)
             {

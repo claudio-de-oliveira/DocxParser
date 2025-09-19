@@ -3,6 +3,7 @@
     public class RepeatExp : AbsExpression
     {
         public AbsExpression Exp { get; set; }
+        public int Index { get; set; } = 0;
 
         public RepeatExp(AbsExpression exp)
         {

@@ -75,6 +75,18 @@
           }
         }
       },
+      "ConcreteLL/1.0.0": {
+        "dependencies": {
+          "AbstractLL": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "ConcreteLL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "JsonElement/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
@@ -128,6 +140,11 @@
       "sha512": ""
     },
     "BaseTemplate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConcreteLL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
