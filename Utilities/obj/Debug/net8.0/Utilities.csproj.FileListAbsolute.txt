@@ -1,0 +1,13 @@
+D:\users\clalu\Source\repos\DocxParser\Utilities\bin\Debug\net8.0\Utilities.deps.json
+D:\users\clalu\Source\repos\DocxParser\Utilities\bin\Debug\net8.0\Utilities.dll
+D:\users\clalu\Source\repos\DocxParser\Utilities\bin\Debug\net8.0\Utilities.pdb
+D:\users\clalu\Source\repos\DocxParser\Utilities\obj\Debug\net8.0\Utilities.csproj.AssemblyReference.cache
+D:\users\clalu\Source\repos\DocxParser\Utilities\obj\Debug\net8.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\users\clalu\Source\repos\DocxParser\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfoInputs.cache
+D:\users\clalu\Source\repos\DocxParser\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfo.cs
+D:\users\clalu\Source\repos\DocxParser\Utilities\obj\Debug\net8.0\Utilities.csproj.CoreCompileInputs.cache
+D:\users\clalu\Source\repos\DocxParser\Utilities\obj\Debug\net8.0\Utilities.sourcelink.json
+D:\users\clalu\Source\repos\DocxParser\Utilities\obj\Debug\net8.0\Utilities.dll
+D:\users\clalu\Source\repos\DocxParser\Utilities\obj\Debug\net8.0\refint\Utilities.dll
+D:\users\clalu\Source\repos\DocxParser\Utilities\obj\Debug\net8.0\Utilities.pdb
+D:\users\clalu\Source\repos\DocxParser\Utilities\obj\Debug\net8.0\ref\Utilities.dll

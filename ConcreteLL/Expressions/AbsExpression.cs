@@ -6,8 +6,8 @@
         public virtual object Evaluate(Dictionary<string, Data.Variable> variables, Dictionary<string, object> dictionary)
         {
             var key = ToString()!;
-            if (dictionary.ContainsKey(key))
-                return dictionary[key];
+            if (dictionary.TryGetValue(key, out object? value))
+                return value;
             var result = Evaluate(variables);
             dictionary.Add(key, result);
             return result;

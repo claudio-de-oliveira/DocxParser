@@ -348,13 +348,27 @@
           "BaseTemplate": "1.0.0",
           "ConcreteLL": "1.0.0",
           "DocumentFormat.OpenXml": "3.3.0",
-          "JsonElement": "1.0.0"
+          "JsonElement": "1.0.0",
+          "Utilities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TemplateBuilder.dll": {}
         },
         "runtime": {
           "bin/placeholder/TemplateBuilder.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DocumentFormat.OpenXml": "3.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
         }
       }
     }
@@ -1005,6 +1019,11 @@
       "type": "project",
       "path": "../TemplateBuilder/TemplateBuilder.csproj",
       "msbuildProject": "../TemplateBuilder/TemplateBuilder.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/Utilities.csproj",
+      "msbuildProject": "../Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1014,43 +1033,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\claudio\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\clalu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\claudio\\source\\repos\\DocxParser\\Builder\\Builder.csproj",
+      "projectUniqueName": "D:\\users\\clalu\\Source\\repos\\DocxParser\\Builder\\Builder.csproj",
       "projectName": "Builder",
-      "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\Builder\\Builder.csproj",
-      "packagesPath": "C:\\Users\\claudio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\claudio\\Source\\Repos\\DocxParser\\Builder\\obj\\",
+      "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\Builder\\Builder.csproj",
+      "packagesPath": "C:\\Users\\clalu\\.nuget\\packages\\",
+      "outputPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\Builder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\claudio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\clalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\claudio\\source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj": {
-              "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj"
+            "D:\\users\\clalu\\Source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj": {
+              "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj"
             }
           }
         }
@@ -1092,7 +1107,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

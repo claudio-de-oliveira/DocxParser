@@ -2,7 +2,7 @@
   "profiles": {
     "Builder": {
       "commandName": "Project",
-      "commandLineArgs": "\"C:\\temp\\Contract Express\\Exemplos\\Flight_Confirmation.docx\" \"C:\\TEMP\\Contract Express\\Exemplos\\Flight_Confirmation_A.json\" \"C:\\TEMP\\Contract Express\\Exemplos\\Flight_Confirmation.docx.v1.docx\""
+      "commandLineArgs": "\"C:\\temp\\Contract Express\\Exemplos\\Flight_Confirmation_Break.docx\" \"C:\\TEMP\\Contract Express\\Exemplos\\Flight_Confirmation.json\" \"C:\\TEMP\\Contract Express\\Exemplos\\Flight_Confirmation.docx.v1.docx\""
     }
   }
 }

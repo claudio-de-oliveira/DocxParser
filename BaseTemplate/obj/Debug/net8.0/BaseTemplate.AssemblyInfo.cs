@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaseTemplate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b49dd102d9e70236be5108cf28e0947906fdb225")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aeebd71f5adabeac2f2e7a3291484f550b68f6f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaseTemplate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaseTemplate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,6 +8,38 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "DocumentFormat.OpenXml/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.3.0"
+        },
+        "compile": {
+          "lib/net8.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml.Framework/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Packaging": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.7.1": {
         "type": "package",
         "compile": {
@@ -859,6 +891,22 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
+        }
+      },
+      "System.IO.Packaging/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Linq/4.3.0": {
@@ -1719,6 +1767,20 @@
           "bin/placeholder/AbstractLL.dll": {}
         }
       },
+      "BaseTemplate/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ConcreteLL": "1.0.0",
+          "DocumentFormat.OpenXml": "3.3.0"
+        },
+        "compile": {
+          "bin/placeholder/BaseTemplate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaseTemplate.dll": {}
+        }
+      },
       "ConcreteLL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1744,6 +1806,36 @@
         },
         "runtime": {
           "bin/placeholder/JsonElement.dll": {}
+        }
+      },
+      "TemplateBuilder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BaseTemplate": "1.0.0",
+          "ConcreteLL": "1.0.0",
+          "DocumentFormat.OpenXml": "3.3.0",
+          "JsonElement": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TemplateBuilder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TemplateBuilder.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DocumentFormat.OpenXml": "3.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
         }
       }
     }
@@ -1800,6 +1892,54 @@
         "coverlet-icon.png",
         "coverlet.collector.3.2.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "DocumentFormat.OpenXml/3.3.0": {
+      "sha512": "JogRPJNiE6kKvbuCqVRX691pPWeGMqdQgjrUwRYkdpfkMmtElfqAgcRR73geYj7OtBeEpstldZXXzJw27LUI9w==",
+      "type": "package",
+      "path": "documentformat.openxml/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "documentformat.openxml.3.3.0.nupkg.sha512",
+        "documentformat.openxml.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.dll",
+        "lib/net35/DocumentFormat.OpenXml.xml",
+        "lib/net40/DocumentFormat.OpenXml.dll",
+        "lib/net40/DocumentFormat.OpenXml.xml",
+        "lib/net46/DocumentFormat.OpenXml.dll",
+        "lib/net46/DocumentFormat.OpenXml.xml",
+        "lib/net8.0/DocumentFormat.OpenXml.dll",
+        "lib/net8.0/DocumentFormat.OpenXml.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
+      ]
+    },
+    "DocumentFormat.OpenXml.Framework/3.3.0": {
+      "sha512": "R5CLzEoeyr7XDB7g3NTxRobcU19agaxVAhGZm+fZUShJGiU4bw8oUgnA2BNFepigJckfFMayOBMAbV3kDXNInA==",
+      "type": "package",
+      "path": "documentformat.openxml.framework/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "documentformat.openxml.framework.3.3.0.nupkg.sha512",
+        "documentformat.openxml.framework.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net35/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net40/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net40/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net46/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net46/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net6.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net6.0/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net8.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net8.0/DocumentFormat.OpenXml.Framework.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.Framework.xml"
       ]
     },
     "Microsoft.CodeCoverage/17.7.1": {
@@ -3304,6 +3444,35 @@
         "ref/xamarinwatchos10/_._",
         "system.io.filesystem.primitives.4.3.0.nupkg.sha512",
         "system.io.filesystem.primitives.nuspec"
+      ]
+    },
+    "System.IO.Packaging/8.0.1": {
+      "sha512": "KYkIOAvPexQOLDxPO2g0BVoWInnQhPpkFzRqvNrNrMhVT6kqhVr0zEb6KCHlptLFukxnZrjuMVAnxK7pOGUYrw==",
+      "type": "package",
+      "path": "system.io.packaging/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Packaging.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Packaging.targets",
+        "lib/net462/System.IO.Packaging.dll",
+        "lib/net462/System.IO.Packaging.xml",
+        "lib/net6.0/System.IO.Packaging.dll",
+        "lib/net6.0/System.IO.Packaging.xml",
+        "lib/net7.0/System.IO.Packaging.dll",
+        "lib/net7.0/System.IO.Packaging.xml",
+        "lib/net8.0/System.IO.Packaging.dll",
+        "lib/net8.0/System.IO.Packaging.xml",
+        "lib/netstandard2.0/System.IO.Packaging.dll",
+        "lib/netstandard2.0/System.IO.Packaging.xml",
+        "system.io.packaging.8.0.1.nupkg.sha512",
+        "system.io.packaging.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Linq/4.3.0": {
@@ -5546,6 +5715,11 @@
       "path": "../AbstractLL/AbstractLL.csproj",
       "msbuildProject": "../AbstractLL/AbstractLL.csproj"
     },
+    "BaseTemplate/1.0.0": {
+      "type": "project",
+      "path": "../BaseTemplate/BaseTemplate.csproj",
+      "msbuildProject": "../BaseTemplate/BaseTemplate.csproj"
+    },
     "ConcreteLL/1.0.0": {
       "type": "project",
       "path": "../ConcreteLL/ConcreteLL.csproj",
@@ -5555,59 +5729,74 @@
       "type": "project",
       "path": "../JsonElement/JsonElement.csproj",
       "msbuildProject": "../JsonElement/JsonElement.csproj"
+    },
+    "TemplateBuilder/1.0.0": {
+      "type": "project",
+      "path": "../TemplateBuilder/TemplateBuilder.csproj",
+      "msbuildProject": "../TemplateBuilder/TemplateBuilder.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/Utilities.csproj",
+      "msbuildProject": "../Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "ConcreteLL >= 1.0.0",
+      "DocumentFormat.OpenXml >= 3.3.0",
       "JsonElement >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.7.1",
+      "TemplateBuilder >= 1.0.0",
+      "Utilities >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\claudio\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\clalu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\claudio\\source\\repos\\DocxParser\\TestParser\\TestParser.csproj",
+      "projectUniqueName": "D:\\users\\clalu\\Source\\repos\\DocxParser\\TestParser\\TestParser.csproj",
       "projectName": "TestParser",
-      "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\TestParser\\TestParser.csproj",
-      "packagesPath": "C:\\Users\\claudio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\claudio\\Source\\Repos\\DocxParser\\TestParser\\obj\\",
+      "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\TestParser\\TestParser.csproj",
+      "packagesPath": "C:\\Users\\clalu\\.nuget\\packages\\",
+      "outputPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\TestParser\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\claudio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\clalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj": {
-              "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj"
+            "D:\\users\\clalu\\Source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj": {
+              "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj"
             },
-            "C:\\Users\\claudio\\source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj": {
-              "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj"
+            "D:\\users\\clalu\\Source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj": {
+              "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj"
+            },
+            "D:\\users\\clalu\\Source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj": {
+              "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj"
+            },
+            "D:\\users\\clalu\\Source\\repos\\DocxParser\\Utilities\\Utilities.csproj": {
+              "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\Utilities\\Utilities.csproj"
             }
           }
         }
@@ -5628,6 +5817,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "DocumentFormat.OpenXml": {
+            "target": "Package",
+            "version": "[3.3.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.7.1, )"
@@ -5665,7 +5858,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

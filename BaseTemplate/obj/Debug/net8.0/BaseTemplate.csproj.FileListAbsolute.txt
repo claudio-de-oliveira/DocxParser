@@ -51,3 +51,4 @@ C:\Users\claudio\Source\Repos\DocxParser\BaseTemplate\obj\Debug\net8.0\BaseTempl
 C:\Users\claudio\Source\Repos\DocxParser\BaseTemplate\obj\Debug\net8.0\refint\BaseTemplate.dll
 C:\Users\claudio\Source\Repos\DocxParser\BaseTemplate\obj\Debug\net8.0\BaseTemplate.pdb
 C:\Users\claudio\Source\Repos\DocxParser\BaseTemplate\obj\Debug\net8.0\ref\BaseTemplate.dll
+D:\users\clalu\Source\repos\DocxParser\BaseTemplate\obj\Debug\net8.0\BaseTemplate.sourcelink.json

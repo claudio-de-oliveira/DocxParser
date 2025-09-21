@@ -225,10 +225,22 @@
           "BaseTemplate": "1.0.0",
           "ConcreteLL": "1.0.0",
           "DocumentFormat.OpenXml": "3.3.0",
-          "JsonElement": "1.0.0"
+          "JsonElement": "1.0.0",
+          "Utilities": "1.0.0"
         },
         "runtime": {
           "TemplateBuilder.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Utilities/1.0.0": {
+        "dependencies": {
+          "DocumentFormat.OpenXml": "3.3.0"
+        },
+        "runtime": {
+          "Utilities.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -389,6 +401,11 @@
       "sha512": ""
     },
     "TemplateBuilder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

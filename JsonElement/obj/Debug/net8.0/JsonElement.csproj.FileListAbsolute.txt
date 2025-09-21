@@ -36,3 +36,4 @@ C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElemen
 C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\refint\JsonElement.dll
 C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.pdb
 C:\Users\claudio\Source\Repos\DocxParser\JsonElement\obj\Debug\net8.0\ref\JsonElement.dll
+D:\users\clalu\Source\repos\DocxParser\JsonElement\obj\Debug\net8.0\JsonElement.sourcelink.json

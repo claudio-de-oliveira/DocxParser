@@ -6,6 +6,8 @@ using DocumentFormat.OpenXml.Wordprocessing;
 
 using TemplateBuilder.CustomElement;
 
+using Utilities;
+
 namespace TemplateBuilder
 {
     public class ScannerContext
@@ -39,6 +41,7 @@ namespace TemplateBuilder
         private Stack<ScannerContext> stack;
         private ScannerContext context => stack.Peek();
         private int state { get; set; }
+        // public object OpenXmlEqualityComparer { get; private set; }
 
         public ScannerDocx(Dictionary<string, ConcreteLL.Data.Variable> variables, OpenXmlElement root)
         {
@@ -78,7 +81,9 @@ namespace TemplateBuilder
             return stack.Pop();
         }
 
-        private OpenXmlElement ScanXmlElementInterno(OpenXmlElement xmlElement)
+        private Dictionary<Type, OpenXmlElement> lastElements = [];
+
+        public OpenXmlElement ScanXmlElementInterno(OpenXmlElement xmlElement)
         {
             var newXmlElement = xmlElement.CloneNode(false);
             bool mark = context._newContext;
@@ -151,20 +156,25 @@ namespace TemplateBuilder
                         {
                             if (mark)
                             {
-                                var exp = expressionElements.Dequeue();
+                                ExpressionElement? exp = null;
 
-                                if (expressionElements.Any())
+                                //while (expressionElements.Any())
                                 {
-                                    expressionElements.First().AppendChild(exp);
-                                }
-                                else
-                                {
-                                    context.AddRoot(exp.CloneNode(true));
-                                    foreach (var xml in exp.SavedList)
-                                        context.AddRoot(xml.CloneNode(true));
+                                    exp = expressionElements.Dequeue();
+
+                                    if (expressionElements.Any())
+                                    {
+                                        expressionElements.First().AppendChild(exp);
+                                    }
+                                    else
+                                    {
+                                        context.AddRoot(exp.CloneNode(true));
+                                        foreach (var xml in exp.SavedList)
+                                            context.AddRoot(xml.CloneNode(true));
+                                    }
                                 }
 
-                                if (exp.CommonAncestral != xmlChild)
+                                if (exp!.CommonAncestral != xmlChild)
                                 {
                                     if (expressionElements.Any())
                                         expressionElements.First().SavedList.Enqueue(tmpXml);
@@ -177,7 +187,7 @@ namespace TemplateBuilder
                             else if (expressionElements.First().CommonAncestral == xmlElement)
                             {
                                 newXmlElement.AppendChild(tmpXml);
-                                expressionElements.First().AppendChild(newXmlElement);
+                                expressionElements.First().AppendChild(newXmlElement.CloneNode(true));
                             }
                             else
                                 newXmlElement.Append(tmpXml.CloneNode(true));
@@ -189,8 +199,17 @@ namespace TemplateBuilder
                             else
                                 newXmlElement.Append(tmpXml.CloneNode(true));
                         }
-                        else
+                        else if (!lastElements.ContainsKey(tmpXml.GetType()) || !OpenXmlEqualityComparer.CompareDetailed(lastElements[tmpXml.GetType()], tmpXml).AreEqual)
+                        {
+                            if (lastElements.ContainsKey(tmpXml.GetType()))
+                                lastElements[tmpXml.GetType()] = tmpXml;
+                            else
+                                lastElements.Add(tmpXml.GetType(), tmpXml);
                             newXmlElement.Append(tmpXml.CloneNode(true));
+                        }
+                        else
+                        {
+                        }
                     }
                 }
             }

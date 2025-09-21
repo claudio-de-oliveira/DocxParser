@@ -33,3 +33,4 @@ C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.
 C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\refint\AbstractLL.dll
 C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.pdb
 C:\Users\claudio\Source\Repos\DocxParser\AbstractLL\obj\Debug\net8.0\ref\AbstractLL.dll
+D:\users\clalu\Source\repos\DocxParser\AbstractLL\obj\Debug\net8.0\AbstractLL.sourcelink.json

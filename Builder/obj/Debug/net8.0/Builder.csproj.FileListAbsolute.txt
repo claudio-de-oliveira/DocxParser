@@ -129,3 +129,6 @@ C:\Users\claudio\Source\Repos\DocxParser\Builder\obj\Debug\net8.0\refint\Builder
 C:\Users\claudio\Source\Repos\DocxParser\Builder\obj\Debug\net8.0\Builder.pdb
 C:\Users\claudio\Source\Repos\DocxParser\Builder\obj\Debug\net8.0\Builder.genruntimeconfig.cache
 C:\Users\claudio\Source\Repos\DocxParser\Builder\obj\Debug\net8.0\ref\Builder.dll
+D:\users\clalu\Source\repos\DocxParser\Builder\obj\Debug\net8.0\Builder.sourcelink.json
+D:\users\clalu\Source\repos\DocxParser\Builder\bin\Debug\net8.0\Utilities.dll
+D:\users\clalu\Source\repos\DocxParser\Builder\bin\Debug\net8.0\Utilities.pdb

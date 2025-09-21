@@ -45,3 +45,4 @@ C:\Users\claudio\Source\Repos\DocxParser\ConcreteLL\obj\Debug\net8.0\ConcreteLL.
 C:\Users\claudio\Source\Repos\DocxParser\ConcreteLL\obj\Debug\net8.0\refint\ConcreteLL.dll
 C:\Users\claudio\Source\Repos\DocxParser\ConcreteLL\obj\Debug\net8.0\ConcreteLL.pdb
 C:\Users\claudio\Source\Repos\DocxParser\ConcreteLL\obj\Debug\net8.0\ref\ConcreteLL.dll
+D:\users\clalu\Source\repos\DocxParser\ConcreteLL\obj\Debug\net8.0\ConcreteLL.sourcelink.json

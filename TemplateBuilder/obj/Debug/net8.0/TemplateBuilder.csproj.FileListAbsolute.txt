@@ -63,3 +63,6 @@ C:\Users\claudio\Source\Repos\DocxParser\TemplateBuilder\obj\Debug\net8.0\Templa
 C:\Users\claudio\Source\Repos\DocxParser\TemplateBuilder\obj\Debug\net8.0\refint\TemplateBuilder.dll
 C:\Users\claudio\Source\Repos\DocxParser\TemplateBuilder\obj\Debug\net8.0\TemplateBuilder.pdb
 C:\Users\claudio\Source\Repos\DocxParser\TemplateBuilder\obj\Debug\net8.0\ref\TemplateBuilder.dll
+D:\users\clalu\Source\repos\DocxParser\TemplateBuilder\obj\Debug\net8.0\TemplateBuilder.sourcelink.json
+D:\users\clalu\Source\repos\DocxParser\TemplateBuilder\bin\Debug\net8.0\Utilities.dll
+D:\users\clalu\Source\repos\DocxParser\TemplateBuilder\bin\Debug\net8.0\Utilities.pdb

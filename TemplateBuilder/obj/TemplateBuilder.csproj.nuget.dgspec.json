@@ -1,34 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\claudio\\source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj": {}
+    "D:\\users\\clalu\\Source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\claudio\\source\\repos\\DocxParser\\AbstractLL\\AbstractLL.csproj": {
+    "D:\\users\\clalu\\Source\\repos\\DocxParser\\AbstractLL\\AbstractLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\claudio\\source\\repos\\DocxParser\\AbstractLL\\AbstractLL.csproj",
+        "projectUniqueName": "D:\\users\\clalu\\Source\\repos\\DocxParser\\AbstractLL\\AbstractLL.csproj",
         "projectName": "AbstractLL",
-        "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\AbstractLL\\AbstractLL.csproj",
-        "packagesPath": "C:\\Users\\claudio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\claudio\\Source\\Repos\\DocxParser\\AbstractLL\\obj\\",
+        "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\AbstractLL\\AbstractLL.csproj",
+        "packagesPath": "C:\\Users\\clalu\\.nuget\\packages\\",
+        "outputPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\AbstractLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\claudio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\clalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,43 +65,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\claudio\\source\\repos\\DocxParser\\BaseTemplate\\BaseTemplate.csproj": {
+    "D:\\users\\clalu\\Source\\repos\\DocxParser\\BaseTemplate\\BaseTemplate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\claudio\\source\\repos\\DocxParser\\BaseTemplate\\BaseTemplate.csproj",
+        "projectUniqueName": "D:\\users\\clalu\\Source\\repos\\DocxParser\\BaseTemplate\\BaseTemplate.csproj",
         "projectName": "BaseTemplate",
-        "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\BaseTemplate\\BaseTemplate.csproj",
-        "packagesPath": "C:\\Users\\claudio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\BaseTemplate\\obj\\",
+        "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\BaseTemplate\\BaseTemplate.csproj",
+        "packagesPath": "C:\\Users\\clalu\\.nuget\\packages\\",
+        "outputPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\BaseTemplate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\claudio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\clalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj": {
-                "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj"
+              "D:\\users\\clalu\\Source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj": {
+                "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj"
               }
             }
           }
@@ -146,43 +140,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj": {
+    "D:\\users\\clalu\\Source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj",
+        "projectUniqueName": "D:\\users\\clalu\\Source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj",
         "projectName": "ConcreteLL",
-        "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj",
-        "packagesPath": "C:\\Users\\claudio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\obj\\",
+        "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj",
+        "packagesPath": "C:\\Users\\clalu\\.nuget\\packages\\",
+        "outputPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\ConcreteLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\claudio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\clalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\claudio\\source\\repos\\DocxParser\\AbstractLL\\AbstractLL.csproj": {
-                "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\AbstractLL\\AbstractLL.csproj"
+              "D:\\users\\clalu\\Source\\repos\\DocxParser\\AbstractLL\\AbstractLL.csproj": {
+                "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\AbstractLL\\AbstractLL.csproj"
               }
             }
           }
@@ -224,35 +215,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\claudio\\source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj": {
+    "D:\\users\\clalu\\Source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\claudio\\source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj",
+        "projectUniqueName": "D:\\users\\clalu\\Source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj",
         "projectName": "JsonElement",
-        "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj",
-        "packagesPath": "C:\\Users\\claudio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\claudio\\Source\\Repos\\DocxParser\\JsonElement\\obj\\",
+        "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj",
+        "packagesPath": "C:\\Users\\clalu\\.nuget\\packages\\",
+        "outputPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\JsonElement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\claudio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\clalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -298,49 +286,49 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\claudio\\source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj": {
+    "D:\\users\\clalu\\Source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\claudio\\source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj",
+        "projectUniqueName": "D:\\users\\clalu\\Source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj",
         "projectName": "TemplateBuilder",
-        "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj",
-        "packagesPath": "C:\\Users\\claudio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\TemplateBuilder\\obj\\",
+        "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\TemplateBuilder\\TemplateBuilder.csproj",
+        "packagesPath": "C:\\Users\\clalu\\.nuget\\packages\\",
+        "outputPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\TemplateBuilder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\claudio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\clalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\claudio\\source\\repos\\DocxParser\\BaseTemplate\\BaseTemplate.csproj": {
-                "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\BaseTemplate\\BaseTemplate.csproj"
+              "D:\\users\\clalu\\Source\\repos\\DocxParser\\BaseTemplate\\BaseTemplate.csproj": {
+                "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\BaseTemplate\\BaseTemplate.csproj"
               },
-              "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj": {
-                "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj"
+              "D:\\users\\clalu\\Source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj": {
+                "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\ConcreteLL\\ConcreteLL.csproj"
               },
-              "C:\\Users\\claudio\\source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj": {
-                "projectPath": "C:\\Users\\claudio\\source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj"
+              "D:\\users\\clalu\\Source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj": {
+                "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\JsonElement\\JsonElement.csproj"
+              },
+              "D:\\users\\clalu\\Source\\repos\\DocxParser\\Utilities\\Utilities.csproj": {
+                "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -382,7 +370,78 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\users\\clalu\\Source\\repos\\DocxParser\\Utilities\\Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\users\\clalu\\Source\\repos\\DocxParser\\Utilities\\Utilities.csproj",
+        "projectName": "Utilities",
+        "projectPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\clalu\\.nuget\\packages\\",
+        "outputPath": "D:\\users\\clalu\\Source\\repos\\DocxParser\\Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\clalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
