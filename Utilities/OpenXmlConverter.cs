@@ -125,7 +125,7 @@ namespace Utilities
             // Elementos do namespace 'w' (wordprocessingml)
             if (prefix == "w")
             {
-                return localName.ToLowerInvariant() switch
+                return localName.ToLower() switch
                 {
                     "p" => new Paragraph(),
                     "r" => new Run(),
@@ -159,24 +159,24 @@ namespace Utilities
                     "ind" => new Indentation(),
                     "spacing" => new SpacingBetweenLines(),
                     "rfonts" => new RunFonts(),
-                    "vertAlign" => new VerticalTextAlignment(),
+                    "vertalign" => new VerticalTextAlignment(),
                     "lang" => new Languages(),
-                    "noProof" => new NoProof(),
+                    "noproof" => new NoProof(),
                     "sectpr" => new SectionProperties(),
-                    "pgSz" => new PageSize(),
-                    "pgMar" => new PageMargin(),
+                    "pgsz" => new PageSize(),
+                    "pgmar" => new PageMargin(),
                     "cols" => new Columns(),
                     //"docGrid" => new DocumentGrid(),
-                    "bookmarkStart" => new BookmarkStart(),
-                    "bookmarkEnd" => new BookmarkEnd(),
+                    "bookmarkstart" => new BookmarkStart(),
+                    "bookmarkend" => new BookmarkEnd(),
                     "hyperlink" => new Hyperlink(),
-                    "fldSimple" => new SimpleField(),
-                    "instrText" => new FieldCode(),
-                    "fldChar" => new FieldChar(),
-                    "softHyphen" => new SoftHyphen(),
+                    "fldsimple" => new SimpleField(),
+                    "instrtext" => new FieldCode(),
+                    "fldchar" => new FieldChar(),
+                    "softhyphen" => new SoftHyphen(),
                     //"nonBreakingHyphen" => new NonBreakingHyphen(),
                     "sym" => new SymbolChar(),
-                    "pgNum" => new PageNumber(),
+                    "pgnum" => new PageNumber(),
                     "cr" => new CarriageReturn(),
                     "drawing" => new Drawing(),
                     _ => new OpenXmlUnknownElement(prefix, localName, $"http://schemas.openxmlformats.org/wordprocessingml/2006/main")

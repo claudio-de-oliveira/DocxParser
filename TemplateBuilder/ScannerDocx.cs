@@ -113,28 +113,33 @@ namespace TemplateBuilder
 
                 if (xmlChild is Text xmlText)
                 {
-                    OpenXmlElement? newXml = ScanText(xmlText);
+                    OpenXmlElement? tmpXml = ScanText(xmlText);
 
-                    if (newXml is not null)
+                    if (tmpXml is not null)
                     {
-                        if (newXml is ValueElement valueElement)
+                        if (tmpXml is ValueElement valueElement)
                         {
                             var properties = xmlElement.GetFirstChild<RunProperties>();
                             if (properties is not null)
                                 valueElement.AppendChild(properties.CloneNode(true));
-                            newXmlElement.Append(newXml);
+                            //newXmlElement.Append(tmpXml);
+                            TryAppendChild(newXmlElement, tmpXml);
                             context.Lexema = "";
                         }
-                        else if (newXml is ExpressionElement expressionElement)
+                        else if (tmpXml is ExpressionElement expressionElement)
                         {
                             if (expressionElement.CommonAncestral != xmlElement)
+                            {
                                 CreateExpressionElement(expressionElement);
+                                //mark = false;
+                            }
                             else
-                                newXmlElement.Append(newXml);
+                                newXmlElement.Append(tmpXml);
                         }
                         else if (!context._expInProgress)
                         {
-                            newXmlElement.Append(newXml.CloneNode(true));
+                            TryAppendChild(newXmlElement, tmpXml);
+                            //newXmlElement.Append(tmpXml.CloneNode(true));
                             context.Lexema = "";
                         }
                     }
@@ -150,28 +155,24 @@ namespace TemplateBuilder
                             if (valueElement.CommonAncestral!.Parent != xmlElement)
                                 return valueElement;
                             else
-                                newXmlElement.Append(tmpXml);
+                                // newXmlElement.Append(tmpXml);
+                                TryAppendChild(newXmlElement, tmpXml);
                         }
                         else if (expressionElements.Any())
                         {
                             if (mark)
                             {
-                                ExpressionElement? exp = null;
+                                ExpressionElement? exp = expressionElements.Dequeue();
 
-                                //while (expressionElements.Any())
+                                if (expressionElements.Any())
                                 {
-                                    exp = expressionElements.Dequeue();
-
-                                    if (expressionElements.Any())
-                                    {
-                                        expressionElements.First().AppendChild(exp);
-                                    }
-                                    else
-                                    {
-                                        context.AddRoot(exp.CloneNode(true));
-                                        foreach (var xml in exp.SavedList)
-                                            context.AddRoot(xml.CloneNode(true));
-                                    }
+                                    expressionElements.First().AppendChild(exp);
+                                }
+                                else
+                                {
+                                    context.AddRoot(exp.CloneNode(true));
+                                    foreach (var xml in exp.SavedList)
+                                        context.AddRoot(xml.CloneNode(true));
                                 }
 
                                 if (exp!.CommonAncestral != xmlChild)
@@ -183,21 +184,29 @@ namespace TemplateBuilder
                                 }
                                 else
                                     exp.NewCommonAncestral = tmpXml;
+
+                                mark = false;
                             }
-                            else if (expressionElements.First().CommonAncestral == xmlElement)
+                            else if (expressionElements.Last().CommonAncestral == xmlElement)
                             {
                                 newXmlElement.AppendChild(tmpXml);
-                                expressionElements.First().AppendChild(newXmlElement.CloneNode(true));
+                                if (expressionElements.Last().HasChildren)
+                                    expressionElements.Last().RemoveAllChildren();
+                                foreach (var chl in newXmlElement)
+                                    expressionElements.Last().AppendChild(chl.CloneNode(true));
+                                newXmlElement.RemoveAllChildren();
                             }
                             else
-                                newXmlElement.Append(tmpXml.CloneNode(true));
+                                TryAppendChild(newXmlElement, tmpXml);
+                            // newXmlElement.Append(tmpXml.CloneNode(true));
                         }
                         else if (!context._expInProgress)
                         {
                             if (mark && context.Root == xmlChild.Parent)
                                 context.AddRoot(tmpXml);
                             else
-                                newXmlElement.Append(tmpXml.CloneNode(true));
+                                TryAppendChild(newXmlElement, tmpXml);
+                            // newXmlElement.Append(tmpXml.CloneNode(true));
                         }
                         else if (!lastElements.ContainsKey(tmpXml.GetType()) || !OpenXmlEqualityComparer.CompareDetailed(lastElements[tmpXml.GetType()], tmpXml).AreEqual)
                         {
@@ -205,7 +214,8 @@ namespace TemplateBuilder
                                 lastElements[tmpXml.GetType()] = tmpXml;
                             else
                                 lastElements.Add(tmpXml.GetType(), tmpXml);
-                            newXmlElement.Append(tmpXml.CloneNode(true));
+                            //newXmlElement.Append(tmpXml.CloneNode(true));
+                            TryAppendChild(newXmlElement, tmpXml);
                         }
                         else
                         {
@@ -215,6 +225,29 @@ namespace TemplateBuilder
             }
 
             return newXmlElement;
+        }
+
+        private static RunProperties? lastRunProperties = null;
+
+        private static void TryAppendChild(OpenXmlElement parent, OpenXmlElement child)
+        {
+            if (parent is null || child is null)
+                return;
+
+            if (child is Run && child.ChildElements.Count == 1)
+            {
+                if (child.FirstChild is RunProperties)
+                {
+                    if (lastRunProperties is not null && Utilities.OpenXmlEqualityComparer.AreEqual(lastRunProperties, child))
+                        return;
+                    else
+                        lastRunProperties = child as RunProperties;
+                }
+                else if (child.FirstChild is Text && child.FirstChild.InnerText == "")
+                    return;
+            }
+
+            parent.Append(child.CloneNode(true));
         }
 
         private static bool IsChildOfRun(OpenXmlElement? xml)

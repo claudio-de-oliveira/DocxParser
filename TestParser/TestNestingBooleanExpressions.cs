@@ -13,10 +13,6 @@ namespace TestParser
         [Fact]
         public void TestNestingFalseExp()
         {
-
-            var root = new Body();
-            var scannerDocx = new ScannerDocx(variables, root);
-
             var xmlText = """
                 <w:p xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
                     <w:pPr>
@@ -40,9 +36,17 @@ namespace TestParser
                 </w:p>
                 """;
 
-            var xmlElement = OpenXmlConverter.ConvertInnerXmlToElement<Paragraph>(xmlText);
+            //var xmlElement = OpenXmlConverter.ConvertInnerXmlToElement<Paragraph>(xmlText);
+            var xmlElement = OpenXmlConverter.ConvertInnerXmlToElement(xmlText);
 
-            var context = scannerDocx.ScanXmlElementInterno(xmlElement);
+            var body = new Body();
+            body.AppendChild(xmlElement);
+            body = Utilities.TextSplitter.SplitCommandMarks(body) as Body;
+            var scannerDocx = new ScannerDocx(variables, body!);
+
+
+
+            var context = scannerDocx.ScanXmlElementInterno(body.CloneNode(true));
 
         }
     }

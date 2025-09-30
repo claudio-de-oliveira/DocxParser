@@ -1,5 +1,4 @@
-﻿using DocumentFormat.OpenXml;
-using DocumentFormat.OpenXml.Packaging;
+﻿using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Wordprocessing;
 
 namespace TemplateBuilder
@@ -26,7 +25,7 @@ namespace TemplateBuilder
             //foreach (var key in _response.Data.QuestionnaireJSON.Variables.Dictionary.Keys)
             //    variables.Add(key, ConvertToLLVariable(_response.Data.QuestionnaireJSON.Variables.Dictionary[key]));
 
-            var root = SplitCommandMarks(mainDocumentPart!.Document.Body!);
+            var root = Utilities.TextSplitter.SplitCommandMarks(mainDocumentPart!.Document.Body!);
 
             mainDocumentPart!.Document.AddNamespaceDeclaration("s9", "http://schemas.idealsoft.com/shop9/2025/expression");
 
@@ -37,39 +36,6 @@ namespace TemplateBuilder
             mainDocumentPart!.Document.Body = (Body)newBody!;
 
             mainDocument.Save();
-        }
-
-        private static void SplitGreaterThan(OpenXmlElement xmlElement, OpenXmlElement root)
-        {
-            // Substitui um Text contendo uma sequência de n caracteres '>' por uma
-            // sequência de n Text's, cada qual com um único caractere '>'
-            if (xmlElement is Text text)
-            {
-                if (text.Text.Length == 0 || text.Text[0] != '>')
-                    root.AppendChild(xmlElement.CloneNode(false));
-                else
-                    for (int i = 0; i < text.Text.Length; i++)
-                        if (text.Text[i] == '>')
-                            root.AppendChild(new Text(">"));
-            }
-            else if (xmlElement is not ProofError)
-            {
-                var clone = xmlElement.CloneNode(false);
-                root.AppendChild(clone);
-
-                foreach (var child in xmlElement.ChildElements)
-                    SplitGreaterThan(child, clone);
-            }
-        }
-
-        private static OpenXmlElement SplitCommandMarks(OpenXmlElement xmlElement)
-        {
-            // Primeiramente separa todos os caracteres '>' em Text próprios
-            var root = xmlElement.CloneNode(false);
-            foreach (var child in xmlElement.ChildElements)
-                SplitGreaterThan(child, root);
-
-            return root.CloneNode(true);
         }
 
         private static ConcreteLL.Data.Variable ConvertToLLVariable(JsonElement.Variable variable)
